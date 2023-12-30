@@ -10,7 +10,7 @@ public class DataProviders
 	 @DataProvider(name="data")
 	    public String [] [] getalldata() throws IOException
 	    {
-	   String path="C:\\Users\\Mukesh\\Desktop\\API Framework\\untitled\\src\\test\\java\\utilities\\Bookdata.xlsx";
+	   String path="C:\\Users\\Mukesh\\git\\repository\\Rest Assure Book Framework\\src\\test\\java\\utilities\\Bookdata.xlsx";
 	   ExcelData ex= new ExcelData(path);
 
 	   int rownum=ex.totalrows("Sheet1");
@@ -34,7 +34,7 @@ public class DataProviders
 
 	   @DataProvider(name="Id")
 	   public String[] getid() throws IOException {
-	       String path="C:\\Users\\Mukesh\\Desktop\\API Framework\\untitled\\src\\test\\java\\utilities\\Bookdata.xlsx";
+	       String path="C:\\Users\\Mukesh\\git\\repository\\Rest Assure Book Framework\\src\\test\\java\\utilities\\Bookdata.xlsx";
 	       ExcelData ex= new ExcelData(path);
 
 	       int rownum=ex.totalrows("Sheet1");
